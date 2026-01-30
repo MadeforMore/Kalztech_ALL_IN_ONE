@@ -41,6 +41,11 @@ This repository contains multiple branches, each dedicated to a specific project
 - **Description:** Node.js backend server setup and configuration
 - **Features:** Express server, API endpoints, middleware setup
 
+### 🚨 **Task6-ErrorHandling**
+- **Branch:** `error-handling-app`
+- **Description:** Comprehensive error handling with proper HTTP status codes
+- **Features:** Custom error classes, validation, logging, user-friendly error messages
+
 ## 🛠️ Technologies Used
 
 - **Frontend:** HTML5, CSS3, JavaScript (ES6+)
@@ -77,6 +82,7 @@ git checkout calculator-app
 | MongoDB Task | `mongodb-app` | ✅ Complete |
 | HTML Mastery | `html-mastery` | ✅ Complete |
 | Backend Setup | `backend-setup` | ✅ Complete |
+| Error Handling | `error-handling-app` | ✅ Complete |
 
 ## 🚀 Getting Started
 
