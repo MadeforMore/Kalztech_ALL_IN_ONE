@@ -1,0 +1,26 @@
+.star-rating {
+  display: flex;
+  gap: 5px;
+}
+
+.star {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #ddd;
+  cursor: pointer;
+  transition: color 0.2s;
+  padding: 0;
+}
+
+.star:hover:not(.readonly) {
+  color: #ffc107;
+}
+
+.star.filled {
+  color: #ffc107;
+}
+
+.star.readonly {
+  cursor: default;
+}

@@ -1,0 +1,131 @@
+.review-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  border-left: 4px solid #95a5a6;
+  transition: transform 0.2s;
+}
+
+.review-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.review-card.status-approved {
+  border-left-color: #27ae60;
+}
+
+.review-card.status-rejected {
+  border-left-color: #e74c3c;
+}
+
+.review-card.status-pending {
+  border-left-color: #f39c12;
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.reviewer-info h3 {
+  margin: 0 0 5px 0;
+  color: #2c3e50;
+}
+
+.reviewer-info .email {
+  margin: 0;
+  color: #7f8c8d;
+  font-size: 0.9rem;
+}
+
+.review-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.status-badge {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.status-badge.status-approved {
+  background: #d5f4e6;
+  color: #27ae60;
+}
+
+.status-badge.status-rejected {
+  background: #fadbd8;
+  color: #e74c3c;
+}
+
+.status-badge.status-pending {
+  background: #fef5e7;
+  color: #f39c12;
+}
+
+.date {
+  color: #95a5a6;
+  font-size: 0.85rem;
+}
+
+.review-rating {
+  margin-bottom: 15px;
+}
+
+.review-text {
+  color: #34495e;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.review-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.review-actions button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-approve {
+  background: #27ae60;
+  color: white;
+}
+
+.btn-approve:hover {
+  background: #229954;
+}
+
+.btn-reject {
+  background: #e74c3c;
+  color: white;
+}
+
+.btn-reject:hover {
+  background: #c0392b;
+}
+
+.btn-delete {
+  background: #95a5a6;
+  color: white;
+  margin-left: auto;
+}
+
+.btn-delete:hover {
+  background: #7f8c8d;
+}
